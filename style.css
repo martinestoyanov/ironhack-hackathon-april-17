@@ -1,32 +1,40 @@
 :root {
-  --primary-color: #1ba2ab;
+  --primary-color: #FF5135;
   --accent-color: #fed66e;
   --button-color: #8c30f5;
 }
 
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: skyblue;
 }
 
-nav ul {
-  list-style: none;
+header {
+  /* position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%; */
+  height: 72px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: green;
+  justify-content: center;
+
+  background: var(--primary-color);
+  /* Navbar Shadow */
+
+  box-shadow: 0px 1px 0px #E5E9F2;
+
+
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
-}
+#logo {}
 
-.logo {
-  width: 150px;
-  margin-right: 1rem;
-}
+#logo {}
 
 footer ul {
   list-style: none;
