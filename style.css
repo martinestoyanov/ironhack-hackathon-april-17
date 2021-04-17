@@ -6,7 +6,8 @@
 
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: skyblue;
+  background-color: white;
+
 }
 
 header {
@@ -23,6 +24,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Manrope;
+  font-style: normal;
 
   background: var(--primary-color);
   /* Navbar Shadow */
@@ -32,11 +35,69 @@ header {
 
 }
 
-#logo {}
 
-#logo {}
-
-footer ul {
-  list-style: none;
+#top-section {
+  background-image: url("/assets/top-background.png");
+  height: 746px;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#mid-section {
+  height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-image: url("/assets/mid-background.jpg");
+}
+
+#bottom-section {
+
+  background-color: #009A7E;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  border-radius: 8px;
+  flex-direction: row
+}
+
+#benefits {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blurb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 5%;
+  padding: 15px;
+
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.get-started-btn {
+  color: black;
+  background-color: #FFB04E;
+  text-decoration: none;
+  color: white;
+  padding: 10px 45px;
+  margin-right: 15px;
+
 }
