@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #1ba2ab;
+  --accent-color: #fed66e;
+  --button-color: #8c30f5;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -25,6 +31,4 @@ nav a {
 footer ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
