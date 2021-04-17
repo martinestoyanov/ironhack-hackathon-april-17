@@ -22,7 +22,9 @@ nav a {
   margin-right: 1rem;
 }
 
-footer {
-  width: 10vw;
+footer ul {
+  list-style: none;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
