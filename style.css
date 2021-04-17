@@ -21,3 +21,8 @@ nav a {
   width: 150px;
   margin-right: 1rem;
 }
+
+footer {
+  width: 10vw;
+  display: flex;
+}
