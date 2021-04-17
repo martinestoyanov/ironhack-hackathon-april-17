@@ -1,3 +1,8 @@
+:root {
+  --header-blue: #0AC2CE;
+  --button-color: #8C30F5;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
